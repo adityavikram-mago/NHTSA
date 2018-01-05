@@ -27,3 +27,21 @@ php -S localhost:8080 -t ./public
 ```
 
 **Note:** check `8080` is available
+
+### Requirement 1
+
+```
+GET https://one.nhtsa.gov/webapi/api/SafetyRatings/modelyear/2015/make/Audi/model/A3?format=json
+```  
+  
+### Requirement 2
+
+```
+POST http://localhost:8080/vehicles
+```
+
+### Requirement 3
+
+```
+GET http://localhost:8080/vehicles/<MODEL YEAR>/<MANUFACTURER>/<MODEL>?withRating=true
+```
