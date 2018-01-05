@@ -1,6 +1,7 @@
 # NHTSA
 PHP API to get information about crash test ratings for vehicles from NHTSA NCAP 5 Star Safety Ratings
-URL: https://one.nhtsa.gov/webapi/Default.aspx?SafetyRatings/API/5
+
+* URL: https://one.nhtsa.gov/webapi/Default.aspx?SafetyRatings/API/5
 
 
 ## Application Requirements
